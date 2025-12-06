@@ -55,6 +55,7 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
     <main class="flex-grow px-10 py-10">
         <section class="max-w-100 p-6 mx-auto bg-[#FFFFFF] rounded-md shadow-md">
             <h2 class="text-lg font-semibold capitalize text-center mb-5">Thank you for donating!</h2>
+            <h3 class="text-sm text-center mb-5">You can donate a minimum of $0.50, due to the Stripe API and a maximum of $1000.</h3>
 
             <form method="POST" action="donate.php">
                 <div class="text-center mx-auto space-y-4">
@@ -75,7 +76,7 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
                 </div>
 
                 <div class="flex justify-end mt-6">
-                    <button class="px-8 py-2.5 mx-auto leading-5 text-white transition-colors duration-300 transform bg-[#0099FF] rounded-md hover:bg-[#007ACC]">Save</button>
+                    <button class="px-8 py-2.5 mx-auto leading-5 text-white transition-colors duration-300 transform bg-[#0099FF] rounded-md hover:bg-[#007ACC]">Donate</button>
                 </div>
             </form>
         </section>
