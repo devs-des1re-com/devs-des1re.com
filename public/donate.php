@@ -8,7 +8,7 @@ $stripe_key = $env["STRIPE_KEY"];
 if ($_SERVER["REQUEST_METHOD"] === "POST") {
     $session = \Stripe\Checkout\Session::create([
         "mode" => "payment",
-        "success_url" => "http://devs-des1re.com/paymentsuccess?session_id={CHECKOUT_SESSION_ID}",
+        "success_url" => "http://devs-des1re.com/payment/success?session_id={CHECKOUT_SESSION_ID}",
         "cancel_url" => "http://devs-des1re.com/",
         "locale" => "auto",
         "customer_email" => $_POST["email"],
