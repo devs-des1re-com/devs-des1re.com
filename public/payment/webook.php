@@ -10,7 +10,7 @@ if ($_SERVER['REQUEST_METHOD'] !== 'POST') {
     exit;
 }
 
-$env = parse_ini_file(__DIR__ . "/../../.env");
+$env = parse_ini_file(__DIR__ . "../../.env");
 \Stripe\Stripe::setApiKey($env["STRIPE_KEY"]);
 
 $payload = @file_get_contents('php://input');
