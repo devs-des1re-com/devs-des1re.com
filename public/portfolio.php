@@ -22,7 +22,7 @@
             <div class="flex-[5] min-w-[300px]">
                 <h2 class="text-[30px] md:text-[45px] font-bold mb-4">It's devs_des1re!</h2>
                 <p class="text-[#3C3C3C] leading-relaxed">
-                    Hey guys! Its devs_des1re and your asking who am I? I'm a young developer passionate become better than than my yesterday self. My goal is not the learn the most languages possible (even do I kinda do) but to learn it properly. I'm trying to improve my mindset which will enable me to get to this goal. Never give up guys and thanks for reading this!
+                    Hey guys! Its devs_des1re and your asking who am I? I'm a young developer passionate become better than than my yesterday self. My goal is not the learn the most languages possible (even though I kinda do) but to learn it properly. I'm trying to improve my mindset which will enable me to get to this goal. Never give up guys and thanks for reading this!
                 </p>
 
                 <div class="mt-6 flex flex-wrap gap-3">
