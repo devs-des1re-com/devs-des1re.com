@@ -13,11 +13,11 @@
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
     <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"></script>
 
-    <script><?php include("elements/js/copyright.js"); ?></script>
+    <script><?php include("../elements/js/copyright.js"); ?></script>
 </head>
 <body class="flex flex-col min-h-screen bg-[#F5F5F5] font-['Cascadia_Mono']">
 
-    <?php include("elements/html/navbar.html"); ?>
+    <?php include("../elements/html/navbar.html"); ?>
 
     <main class="flex-grow px-10 py-10 max-w-4xl mx-auto space-y-6 text-center">
         <h1 class="text-4xl font-bold">Terms of Service</h1>
@@ -95,7 +95,7 @@
 
     </main>
 
-    <?php include("elements/html/footer.html"); ?>
+    <?php include("../elements/html/footer.html"); ?>
 
 </body>
 </html>
