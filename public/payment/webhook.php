@@ -46,8 +46,8 @@ if ($event->type === 'checkout.session.completed') {
 
     $noreply_email->Subject = "Thank you for donating!";
 
-    $noreply_template = file_get_contents(__DIR__ .  "/elements/emails/noreply.html");
-    $donation_template = file_get_contents(__DIR__ . "/elements/messages/donation.txt");
+    $noreply_template = file_get_contents(__DIR__ .  "/../elements/emails/noreply.html");
+    $donation_template = file_get_contents(__DIR__ . "/../elements/messages/donation.txt");
     $noreply_template = str_replace(
         ["{{name}}", "{{message}}"],
         [$name, $donation_template],
