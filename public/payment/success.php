@@ -70,7 +70,7 @@ http_response_code(404);
                             <span>Go back</span>
                         </button>
 
-                        <a class="w-1/2 px-5 py-2 text-sm tracking-wide text-white transition-colors duration-200 bg-blue-500 rounded-lg shrink-0 sm:w-auto hover:bg-blue-600" href="/">Take me home</a>
+                        <a class="w-1/2 px-5 py-2 text-sm tracking-wide text-white transition-colors duration-200 bg-blue-500 rounded-lg shrink-0 sm:w-auto hover:bg-blue-600" href="https://devs-des1re.com/">Take me home</a>
                     </div>
                 </div>
             </div>
