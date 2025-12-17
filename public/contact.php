@@ -20,7 +20,7 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
         $data = [
             "secret" => $secret_key,
             "response" => $response_token,
-            "remoteip" => $remote_ip
+            "remoteip" => $remote_ip,
         ];
 
         $ch = curl_init();
